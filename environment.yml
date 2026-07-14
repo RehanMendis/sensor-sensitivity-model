@@ -1,0 +1,17 @@
+name: sensor_sensitivity
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9.12
+  - matplotlib=3.5.2
+  - numpy=1.26.4
+  - pandas=2.2.3
+  - scipy=1.13.1
+  - scikit-learn=1.5.2
+  - statsmodels=0.13.5
+  - pip
+
+  - pip:
+      - firthlogist==0.5.0
